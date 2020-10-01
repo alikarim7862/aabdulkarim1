@@ -1,2 +1,3 @@
 # hello-world
-lab 1 SPR500
+ali abdulkarim
+SPR500 section A
