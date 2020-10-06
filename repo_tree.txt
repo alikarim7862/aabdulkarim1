@@ -1,0 +1,86 @@
+.
+├── aabdulkarim1
+│   ├── .git
+│   │   ├── branches
+│   │   ├── COMMIT_EDITMSG
+│   │   ├── config
+│   │   ├── description
+│   │   ├── HEAD
+│   │   ├── hooks
+│   │   │   ├── applypatch-msg.sample
+│   │   │   ├── commit-msg.sample
+│   │   │   ├── fsmonitor-watchman.sample
+│   │   │   ├── post-update.sample
+│   │   │   ├── pre-applypatch.sample
+│   │   │   ├── pre-commit.sample
+│   │   │   ├── prepare-commit-msg.sample
+│   │   │   ├── pre-push.sample
+│   │   │   ├── pre-rebase.sample
+│   │   │   ├── pre-receive.sample
+│   │   │   └── update.sample
+│   │   ├── index
+│   │   ├── info
+│   │   │   └── exclude
+│   │   ├── logs
+│   │   │   ├── HEAD
+│   │   │   └── refs
+│   │   │       ├── heads
+│   │   │       │   └── main
+│   │   │       └── remotes
+│   │   │           └── origin
+│   │   │               ├── HEAD
+│   │   │               └── main
+│   │   ├── objects
+│   │   │   ├── 01
+│   │   │   │   └── 67cd30010036eda815b519866a22b075ae5427
+│   │   │   ├── 2e
+│   │   │   │   └── 0599d79be0ee42f5ebb953319e918c6cad7bc0
+│   │   │   ├── 34
+│   │   │   │   └── 91012e4d00e3a9171351f7124d7c5d235fe883
+│   │   │   ├── 40
+│   │   │   │   └── 2ae18f7e5c9d5f087cbb06d7c4155f7e26c727
+│   │   │   ├── 42
+│   │   │   │   └── 8bded6e519da440109964a3977f11865f5dba4
+│   │   │   ├── 4f
+│   │   │   │   └── 59ee93dfeed098a12635d0923f404549c81518
+│   │   │   ├── 5b
+│   │   │   │   └── 4923c78613cd547a9f35c12aa6130cee682e11
+│   │   │   ├── 5c
+│   │   │   │   └── 0bc30c892efca0d9dd1a1c7e36dd1d3ca4a3ee
+│   │   │   ├── 89
+│   │   │   │   └── 9f95ffe0ba09bd01f440aec843f3acb0f7b6fb
+│   │   │   ├── b1
+│   │   │   │   └── f86a8ac0e06628737ab54dde722ff60d5cdc97
+│   │   │   ├── b5
+│   │   │   │   └── 3ecc24a94901c512cb10f5aadfb64e5e01fddc
+│   │   │   ├── cc
+│   │   │   │   └── 93cac3592129f154f3f20facdd59df9fc8653b
+│   │   │   ├── d3
+│   │   │   │   └── d03b47502f74b8ab77c2ba5c6995855f072a74
+│   │   │   ├── da
+│   │   │   │   └── 7800cb491b36d60d4bf772a005a070f7f854fa
+│   │   │   ├── e6
+│   │   │   │   └── 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+│   │   │   ├── f7
+│   │   │   │   └── 6ff6475bbd1559142d6938c53f415835dfa3c4
+│   │   │   ├── info
+│   │   │   └── pack
+│   │   ├── packed-refs
+│   │   └── refs
+│   │       ├── heads
+│   │       │   └── main
+│   │       ├── remotes
+│   │       │   └── origin
+│   │       │       ├── HEAD
+│   │       │       └── main
+│   │       └── tags
+│   ├── gitlog.txt
+│   ├── lab1_base_aabdulkarim1.bash
+│   ├── README.md
+│   └── repo_tree.txt
+├── aabdulkarim1_matrix_base.txt
+├── gitlog.txt
+├── lab1_base_aabdulkarim1.bash
+└── repo_tree.txt
+
+34 directories, 49 files
