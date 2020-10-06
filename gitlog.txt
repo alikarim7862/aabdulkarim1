@@ -1,0 +1,20 @@
+commit b1f86a8ac0e06628737ab54dde722ff60d5cdc97
+Merge: cc93cac 4f59ee9
+Author: alikarim7862 <72219013+alikarim7862@users.noreply.github.com>
+Date:   Thu Oct 1 13:05:23 2020 -0400
+
+    Merge pull request #1 from alikarim7862/readme-edits
+    
+    Update README.md
+
+commit 4f59ee93dfeed098a12635d0923f404549c81518
+Author: alikarim7862 <72219013+alikarim7862@users.noreply.github.com>
+Date:   Thu Oct 1 12:59:10 2020 -0400
+
+    Update README.md
+
+commit cc93cac3592129f154f3f20facdd59df9fc8653b
+Author: alikarim7862 <72219013+alikarim7862@users.noreply.github.com>
+Date:   Thu Oct 1 12:50:38 2020 -0400
+
+    Initial commit
