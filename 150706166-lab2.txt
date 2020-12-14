@@ -1,0 +1,32 @@
+Chain INPUT (policy ACCEPT 4870 packets, 954K bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       all  --  ens192 *       192.168.1.0/24       0.0.0.0/0           
+    0     0 DROP       all  --  ens192 *       127.0.0.0/8          0.0.0.0/0           
+    0     0 DROP       all  --  ens192 *       127.0.0.0/8          0.0.0.0/0           
+    0     0 DROP       all  --  eth0   *       127.0.0.0/8          0.0.0.0/0           
+    0     0 spoofing   all  --  *      *       255.0.0.0/8          0.0.0.0/0           
+ 148K   46M spoofing   all  --  *      *       0.0.0.0/8            0.0.0.0/0           
+    0     0 spoofing   all  --  *      *       172.16.255.255       0.0.0.0/0           
+    0     0 DROP       all  --  *      *       172.16.1.1           0.0.0.0/0           
+    0     0 REJECT     all  --  ens192 *       172.16.1.1           0.0.0.0/0            reject-with icmp-port-unreachable
+    0     0 DROP       icmp --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 17
+    0     0 DROP       icmp --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 13
+    0     0 DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0            state INVALID
+    0     0 ACCEPT     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp flags:0x04/0x04 limit: avg 2/sec burst 2
+    0     0 DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0            recent: CHECK seconds: 86400 name: portscan side: source mask: 255.255.255.255
+    0     0            all  --  *      *       0.0.0.0/0            0.0.0.0/0            recent: REMOVE name: portscan side: source mask: 255.255.255.255
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0            state INVALID
+    0     0 DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0            recent: CHECK seconds: 86400 name: portscan side: source mask: 255.255.255.255
+    0     0            all  --  *      *       0.0.0.0/0            0.0.0.0/0            recent: REMOVE name: portscan side: source mask: 255.255.255.255
+
+Chain OUTPUT (policy ACCEPT 4327 packets, 847K bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0            state INVALID
+
+Chain spoofing (3 references)
+ pkts bytes target     prot opt in     out     source               destination         
+ 148K   46M DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 LOG        all  --  *      *       0.0.0.0/0            0.0.0.0/0            LOG flags 0 level 4 prefix "Spoofed source IP"
