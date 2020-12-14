@@ -1,0 +1,27 @@
+Name: Ali Karim
+Username: alikarim
+Student ID: 150706166
+================================================================
+
+===Routing Table===
+
+default via 172.16.255.1 dev ens192 proto dhcp metric 100 
+172.16.0.0/16 dev ens192 proto kernel scope link src 172.16.1.2 metric 100 
+
+================================================================
+
+===HTTP Service is running on Port 80===
+
+
+================================================================
+
+===The current size of each log files mentioned above===
+
+-rw-------. 1 root root 1071743 Dec 13 20:40 /var/log/messages
+-rw-------. 1 root root 0 Oct  3 03:29 /var/log/boot.log
+-rw-------. 1 root root 0 Dec 13 03:14 /var/log/maillog
+-rw-------. 1 root root 47539 Dec 13 20:31 /var/log/secure
+-rw-rw-r--. 1 root utmp 29184 Dec  6 20:17 /var/log/wtmp
+150706166-lab3-baseline.txt
+alilab3baseline.bash
+nmap.txt
